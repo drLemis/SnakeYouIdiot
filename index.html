@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<title>Snake, You Idiot!</title>
+<head>
+	<meta charset="UTF-8">
+	<style>
+		.footer {
+			position: fixed;
+			text-align: center;
+			bottom: 0px;
+			width: 100%;
+			background-color: grey;
+		}
+
+		@font-face {
+			font-family: 'Digital-7 Mono';
+			src: url('font/Digital-7 Mono.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+	</style>
+</head>
+
+<body>
+	<div style="text-align:center;">
+		<div style="display: inline-block; ">
+			<canvas id="canvasJamming" width="220px" height="165px" style="border:1px solid black;background-color: #00e040"> </canvas>
+		</div>
+		<div style="display: inline-block; ">
+			<canvas id="canvasEvasion" width="220px" height="165px" style="border:1px solid black;background-color: #cccc30"> </canvas>
+		</div>
+		<div style="display: inline-block; ">
+			<canvas id="canvasAlert" width="220px" height="165px" style="border:1px solid black;background-color: #FF3030"> </canvas>
+		</div>
+	</div>
+</body>
+<div class="footer ">
+	2018.06.12, v0.01
+</div>
+</html>
+
+<script src="js/jamming.js "></script>
+<script src="js/evasion.js "></script>
+<script src="js/alert.js "></script>
